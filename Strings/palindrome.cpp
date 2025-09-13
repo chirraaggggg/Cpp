@@ -23,4 +23,4 @@ int main(){
     int len = strlen(a);
     cout << "Palindrome: " << checkPalindrome(a, len) << endl;
     return 0;
-}
+} 
