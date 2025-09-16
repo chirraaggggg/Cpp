@@ -9,12 +9,11 @@ int power(int a, int b){
     return ans;
 }
 int main(){
-    int a,b;
-    cout << "a: " << endl;
-    cout << "b: " << endl;
-    cin>>a>>b;
-
-    int answer = power(a,b);
     
+    int a,b;
+    cin>>a>>b;
+    int answer = power(a,b);
+    cout << "answer is: "<<answer<<endl;
+
     return 0;
 }
