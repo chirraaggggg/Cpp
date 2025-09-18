@@ -1,16 +1,16 @@
-#include <iostream>                                          // predefined function = maxi = max(maxi, arr[i]);
+#include <iostream>                                                  // predefined function = mini = min(mini, arr[i]);
 #include <climits>
 using namespace std;
 
-int getMax(int arr[], int size){
-    int max = INT_MIN;
+int getMin(int arr[], int size){
+    int min = INT_MAX;
 
     for(int i = 0; i < size; i++){
-        if(arr[i] > max){
-            max = arr[i];
+        if(arr[i] < min){
+            min = arr[i];
         }
     }
-    return max;
+    return min;
 }
 int main(){
     int n;
@@ -22,7 +22,7 @@ int main(){
     for(int i = 0; i<n; i++){
         cin >> arr[i];
     }
-    cout << "maximum element of the array is: " << getMax(arr,n) << endl;
+    cout << "minimum element of the array is: " << getMin(arr,n) << endl;
 }
 
 // learning: if given a name to a variable in one function then we cannot repeat it in another function
