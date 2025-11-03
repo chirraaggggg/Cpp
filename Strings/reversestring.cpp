@@ -6,7 +6,9 @@ void reverse (char name[] , int n){
     int e = n -1;
 
     while(s < e){
-        swap(name[s++], name[e--]);
+        swap(name[s], name[e]);
+        s++;
+        e--;
     }
 }
 int main(){

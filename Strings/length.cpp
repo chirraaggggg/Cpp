@@ -9,5 +9,12 @@ int getLenght(char name[]){
     return count;
 }
 int main(){
-    
+    char name[20];
+
+    cout << "enter your name: " << endl;
+    cin >> name;
+
+    cout << "your name is: " << name << endl;
+
+    cout << "length: " << getLenght(name) << endl;
 }
