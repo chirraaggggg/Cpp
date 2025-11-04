@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-bool checkPalindrome( char a[], int n){
+bool checkPalindrome( char name[], int n){
     int s = 0;
     int e = n -1;
 
     while(s<=e){
-        if(a[s] != a[e]){
+        if(name[s] != name[e]){
             return false;
         }
         else{
