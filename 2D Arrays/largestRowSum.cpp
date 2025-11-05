@@ -20,7 +20,7 @@ int largestRowSum(int arr[][3], int row, int col){
         }
     }
     cout << "maximum sum is: " << max << endl;
-    return row;
+    return rowIndex;
 }
 int main(){
     int arr[3][3] = {
@@ -28,7 +28,8 @@ int main(){
         {4, 5, 6},
         {7, 8, 9}
     };
-    largestRowSum(arr, 3,3);
+    int rowWithMaxSum = largestRowSum(arr, 3,3);
+    cout << "row with maximum sum is: " << rowWithMaxSum << endl;
 
     return 0;
 }
