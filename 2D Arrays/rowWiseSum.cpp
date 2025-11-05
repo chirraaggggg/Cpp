@@ -2,8 +2,9 @@
 using namespace std;
 
 int printSum(int arr[][3], int row, int col){
-    int sum = 0;
+    
     for(int row = 0; row<3; row++){
+        int sum = 0;
         for(int col=0; col<3; col++){
             sum += arr[row][col];
         }
