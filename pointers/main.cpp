@@ -2,12 +2,12 @@
 using namespace std;
 
 int main(){
-    // int i = 5;
-    // int *p = 0;
-    // p = &i;
+    int i = 5;
+    int *p = 0;
+    p = &i;
 
-    // cout << p << endl;
-    // cout << *p << endl;
+    cout << p << endl;
+    cout << *p << endl;
 
     int num = 5;
     int a = num;
@@ -24,7 +24,6 @@ int main(){
     cout << p << "-" << q << endl;
     cout << *p << "-" << *q << endl;
 
-    // imp concept
-    
+
     return 0;
 }
